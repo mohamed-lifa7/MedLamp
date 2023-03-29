@@ -181,7 +181,6 @@ nav ul li:hover a {
 }
 
 @media (max-width:768px) {
-
     nav #myLinks {
         display: none;
         position: absolute;
@@ -195,21 +194,11 @@ nav ul li:hover a {
     nav #myLinks li {
         color: var(--white);
         padding: 14px 16px;
-
         font-size: 17px;
         display: block;
         border-radius: 30px;
         text-align: center;
     }
-
-    nav #myLinks li:hover {
-        background-color: var(--white);
-    }
-
-    nav #myLinks li:hover a {
-        color: var(--black);
-    }
-
     nav .menu-container {
         display: inline-block;
     }
@@ -475,6 +464,9 @@ nav ul li:hover a {
 }
 
 @media (max-width: 767px) {
+    .quote .quote-text {
+        top: 60%;
+    }
     .quote .quote-text h1 {
         font-size: 20px;
     }
@@ -574,6 +566,15 @@ nav ul li:hover a {
 .contact .contact-info .links li {
     display: block;
     margin: 0 20px;
+}
+@media (max-width: 767px) {
+    .contact .contact-info .links {
+        display: block;
+    }
+
+    .contact .contact-info .links li {
+        margin-bottom: 20px;
+    }
 }
 
 .contact .contact-info .links li:hover a {

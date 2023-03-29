@@ -25,11 +25,11 @@ function displayLinks() {
     }
 
     // Add an event listener to the window object
-    window.addEventListener("click", function (event) {
+  //  window.addEventListener("click", function (event) {
         // Check if the clicked element is inside the myLinks element
-        if (!event.target.matches("#myLinks *")) {
+    //    if (!event.target.matches("#myLinks *")) {
             // If not, hide the myLinks element
-            x.style.display = "none";
-        }
-    });
+      //      x.style.display = "none";
+        //}
+    //});
 }
